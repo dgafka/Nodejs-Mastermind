@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <link rel="stylesheet" href='bootstrap.min.css' />
+    <script src='jquery.min.js'></script>
+    <script src='/js/skrypt.js'></script>
+  </head>
+  <body>
+    <p><h2>Welcome to <%= title %></h2></p>
+    <div class="infoBox"></div>
+    <div id="startGame">
+        <form class="submit form-group" id="formPlay">
+            Amount of columns:<input type="text" id="column" class="form-control"/>
+            Numbers from 0 to:<input type="text" id="colorAmount" class="form-control"/>
+            Amount of tries:<input type="text" id="triesAmount" class="form-control"/>
+
+            <input type="submit" class="btn-primary" value="Play"/>
+        </form>
+    </div>
+    <div class="playGameBox">
+
+    </div>
+    <div class="btn btn-primary" id="submitMove">Next move!</div>
+  </body>
+</html>

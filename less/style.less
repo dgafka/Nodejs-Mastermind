@@ -1,0 +1,94 @@
+﻿body {
+    padding: 50px;
+    font-family: Consolas, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+a {
+    color: #00B7FF;
+}
+
+
+input {
+  margin-top: 5px;
+}
+
+input[type='submit'] {
+  margin-top: 20px;
+}
+
+.infoBox {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.playGameBox {
+  white-space:nowrap;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  .move {
+    display: block;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: rgb(3, 193, 255);
+  }
+  .answerBox {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    display:inline-block;
+    .number {
+      width: inherit;
+    }
+    .input {
+      width: inherit;
+      float: left;
+      color: red;
+      text-align: center;
+    }
+  }
+}
+.results {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 15px;
+  .answer-0 {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 3px solid black;
+    margin-left: 5px;
+  }
+  .answer-1 {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 3px solid black;
+    margin-left: 5px;
+  }
+  .restart {
+    background: white;
+    border: 1px solid black;
+    color: lightblue;
+  }
+}
+
+#submitMove {
+  display: none;
+}
