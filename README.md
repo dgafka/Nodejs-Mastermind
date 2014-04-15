@@ -1,6 +1,6 @@
-[Installation]
-npm install
-bower install
+==Installation
+* npm install
+* bower install
 
-[Run node server]
-npm start
+===Run node server
+* npm start
